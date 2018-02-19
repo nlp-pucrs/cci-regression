@@ -1,0 +1,173 @@
+(48907, 9)
+Data Size: 24458
+Mean Tokens: 6021.335186850928
+67805
+[nltk_data] Downloading package stopwords to /home/jovyan/nltk_data...
+[nltk_data]   Package stopwords is already up-to-date!
+Takes  942  s for 24458  instances
+Takes  204  s for 24458  instances
+Symbols 67806
+Weights (67806, 150)
+Defining a RNN Model...
+Data Shape (24458, 5000)
+Weights (67806, 150)
+Creating model...
+2018-02-01 20:14:15.852466: I tensorflow/core/platform/cpu_feature_guard.cc:137] Your CPU supports instructions that this TensorFlow binary was not compiled to use: SSE4.1 SSE4.2
+Epoch 1/25
+ - 154s - loss: 2.5475 - mean_absolute_error: 2.5475
+Epoch 2/25
+ - 153s - loss: 2.0801 - mean_absolute_error: 2.0801
+Epoch 3/25
+ - 153s - loss: 1.8249 - mean_absolute_error: 1.8249
+Epoch 4/25
+ - 153s - loss: 1.6085 - mean_absolute_error: 1.6085
+Epoch 5/25
+ - 153s - loss: 1.4605 - mean_absolute_error: 1.4605
+Epoch 6/25
+ - 154s - loss: 1.3343 - mean_absolute_error: 1.3343
+Epoch 7/25
+ - 153s - loss: 1.2439 - mean_absolute_error: 1.2439
+Epoch 8/25
+ - 153s - loss: 1.1668 - mean_absolute_error: 1.1668
+Epoch 9/25
+ - 153s - loss: 1.0824 - mean_absolute_error: 1.0824
+Epoch 10/25
+ - 153s - loss: 1.0313 - mean_absolute_error: 1.0313
+Epoch 11/25
+ - 153s - loss: 0.9917 - mean_absolute_error: 0.9917
+Epoch 12/25
+ - 154s - loss: 0.9446 - mean_absolute_error: 0.9446
+Epoch 13/25
+ - 154s - loss: 0.8997 - mean_absolute_error: 0.8997
+Epoch 14/25
+ - 153s - loss: 0.8672 - mean_absolute_error: 0.8672
+Epoch 15/25
+ - 153s - loss: 0.8333 - mean_absolute_error: 0.8333
+Epoch 16/25
+ - 153s - loss: 0.8087 - mean_absolute_error: 0.8087
+Epoch 17/25
+ - 153s - loss: 0.7830 - mean_absolute_error: 0.7830
+Epoch 18/25
+ - 153s - loss: 0.7637 - mean_absolute_error: 0.7637
+Epoch 19/25
+ - 153s - loss: 0.7511 - mean_absolute_error: 0.7511
+Epoch 20/25
+ - 153s - loss: 0.7349 - mean_absolute_error: 0.7349
+Epoch 21/25
+ - 153s - loss: 0.7302 - mean_absolute_error: 0.7302
+Epoch 22/25
+ - 153s - loss: 0.6973 - mean_absolute_error: 0.6973
+Epoch 23/25
+ - 153s - loss: 0.6950 - mean_absolute_error: 0.6950
+Epoch 24/25
+ - 153s - loss: 0.6934 - mean_absolute_error: 0.6934
+Epoch 25/25
+ - 153s - loss: 0.6723 - mean_absolute_error: 0.6723
+mean_absolute_error 1.4488859064603516
+Creating model...
+Epoch 1/25
+ - 155s - loss: 2.0483 - mean_absolute_error: 2.0483
+Epoch 2/25
+ - 153s - loss: 1.5777 - mean_absolute_error: 1.5777
+Epoch 3/25
+ - 153s - loss: 1.3580 - mean_absolute_error: 1.3580
+Epoch 4/25
+ - 153s - loss: 1.2075 - mean_absolute_error: 1.2075
+Epoch 5/25
+ - 153s - loss: 1.1176 - mean_absolute_error: 1.1176
+Epoch 6/25
+ - 153s - loss: 1.0601 - mean_absolute_error: 1.0601
+Epoch 7/25
+ - 153s - loss: 0.9942 - mean_absolute_error: 0.9942
+Epoch 8/25
+ - 153s - loss: 0.9633 - mean_absolute_error: 0.9633
+Epoch 9/25
+ - 153s - loss: 0.9188 - mean_absolute_error: 0.9188
+Epoch 10/25
+ - 153s - loss: 0.8753 - mean_absolute_error: 0.8753
+Epoch 11/25
+ - 153s - loss: 0.8479 - mean_absolute_error: 0.8479
+Epoch 12/25
+ - 153s - loss: 0.8120 - mean_absolute_error: 0.8120
+Epoch 13/25
+ - 153s - loss: 0.7971 - mean_absolute_error: 0.7971
+Epoch 14/25
+ - 153s - loss: 0.7683 - mean_absolute_error: 0.7683
+Epoch 15/25
+ - 153s - loss: 0.7501 - mean_absolute_error: 0.7501
+Epoch 16/25
+ - 153s - loss: 0.7238 - mean_absolute_error: 0.7238
+Epoch 17/25
+ - 153s - loss: 0.7130 - mean_absolute_error: 0.7130
+Epoch 18/25
+ - 153s - loss: 0.6947 - mean_absolute_error: 0.6947
+Epoch 19/25
+ - 153s - loss: 0.6781 - mean_absolute_error: 0.6781
+Epoch 20/25
+ - 153s - loss: 0.6781 - mean_absolute_error: 0.6781
+Epoch 21/25
+ - 153s - loss: 0.6583 - mean_absolute_error: 0.6583
+Epoch 22/25
+ - 153s - loss: 0.6610 - mean_absolute_error: 0.6610
+Epoch 23/25
+ - 153s - loss: 0.6473 - mean_absolute_error: 0.6473
+Epoch 24/25
+ - 153s - loss: 0.6260 - mean_absolute_error: 0.6260
+Epoch 25/25
+ - 153s - loss: 0.6254 - mean_absolute_error: 0.6254
+mean_absolute_error 1.3753074944661483
+Creating model...
+Epoch 1/25
+ - 153s - loss: 2.0894 - mean_absolute_error: 2.0894
+Epoch 2/25
+ - 153s - loss: 1.6120 - mean_absolute_error: 1.6120
+Epoch 3/25
+ - 153s - loss: 1.3829 - mean_absolute_error: 1.3829
+Epoch 4/25
+ - 153s - loss: 1.2504 - mean_absolute_error: 1.2504
+Epoch 5/25
+ - 153s - loss: 1.1324 - mean_absolute_error: 1.1324
+Epoch 6/25
+ - 153s - loss: 1.0733 - mean_absolute_error: 1.0733
+Epoch 7/25
+ - 153s - loss: 1.0114 - mean_absolute_error: 1.0114
+Epoch 8/25
+ - 153s - loss: 0.9597 - mean_absolute_error: 0.9597
+Epoch 9/25
+ - 153s - loss: 0.9297 - mean_absolute_error: 0.9297
+Epoch 10/25
+ - 153s - loss: 0.8876 - mean_absolute_error: 0.8876
+Epoch 11/25
+ - 153s - loss: 0.8521 - mean_absolute_error: 0.8521
+Epoch 12/25
+ - 153s - loss: 0.8228 - mean_absolute_error: 0.8228
+Epoch 13/25
+ - 153s - loss: 0.7993 - mean_absolute_error: 0.7993
+Epoch 14/25
+ - 153s - loss: 0.7731 - mean_absolute_error: 0.7731
+Epoch 15/25
+ - 153s - loss: 0.7482 - mean_absolute_error: 0.7482
+Epoch 16/25
+ - 153s - loss: 0.7378 - mean_absolute_error: 0.7378
+Epoch 17/25
+ - 153s - loss: 0.7188 - mean_absolute_error: 0.7188
+Epoch 18/25
+ - 153s - loss: 0.6968 - mean_absolute_error: 0.6968
+Epoch 19/25
+ - 153s - loss: 0.6806 - mean_absolute_error: 0.6806
+Epoch 20/25
+ - 153s - loss: 0.6693 - mean_absolute_error: 0.6693
+Epoch 21/25
+ - 153s - loss: 0.6608 - mean_absolute_error: 0.6608
+Epoch 22/25
+ - 153s - loss: 0.6503 - mean_absolute_error: 0.6503
+Epoch 23/25
+ - 153s - loss: 0.6375 - mean_absolute_error: 0.6375
+Epoch 24/25
+ - 153s - loss: 0.6332 - mean_absolute_error: 0.6332
+Epoch 25/25
+ - 153s - loss: 0.6163 - mean_absolute_error: 0.6163
+mean_absolute_error 1.417574455260295
+Mean:  1.4139226187289318 Std:  0.030149047640415125
+Time:  3847.980568011602
+Using TensorFlow backend.

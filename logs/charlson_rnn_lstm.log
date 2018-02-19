@@ -1,0 +1,23 @@
+(48907, 9)
+Data Size: 24458
+Mean Tokens: 6118.725733911195
+67805
+[nltk_data] Downloading package stopwords to
+[nltk_data]     /home/grupopln/nltk_data...
+[nltk_data]   Package stopwords is already up-to-date!
+Takes  483  s for 24458  instances
+Takes  111  s for 24458  instances
+Symbols 67806
+Weights (67806, 150)
+Defining a RNN Model...
+Data Shape (24458, 5000)
+Weights (67806, 150)
+Creating model...
+2018-02-14 13:23:23.095969: I tensorflow/core/platform/cpu_feature_guard.cc:137] Your CPU supports instructions that this TensorFlow binary was not compiled to use: SSE4.1 SSE4.2 AVX AVX2 FMA
+Using TensorFlow backend.
+WARNING:tensorflow:From /home/grupopln/.local/lib/python3.6/site-packages/keras/backend/tensorflow_backend.py:1247: calling reduce_sum (from tensorflow.python.ops.math_ops) with keep_dims is deprecated and will be removed in a future version.
+Instructions for updating:
+keep_dims is deprecated, use keepdims instead
+WARNING:tensorflow:From /home/grupopln/.local/lib/python3.6/site-packages/keras/backend/tensorflow_backend.py:1349: calling reduce_mean (from tensorflow.python.ops.math_ops) with keep_dims is deprecated and will be removed in a future version.
+Instructions for updating:
+keep_dims is deprecated, use keepdims instead

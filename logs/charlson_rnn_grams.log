@@ -1,0 +1,55 @@
+(48907, 1)
+(48907, 5000) (48907,)
+Defining a RNN Model...
+Data Shape (24459, 5000)
+Creating model...
+Using TensorFlow backend.
+WARNING:tensorflow:From /home/grupopln/.local/lib/python3.6/site-packages/keras/backend/tensorflow_backend.py:1264: calling reduce_prod (from tensorflow.python.ops.math_ops) with keep_dims is deprecated and will be removed in a future version.
+Instructions for updating:
+keep_dims is deprecated, use keepdims instead
+WARNING:tensorflow:From /home/grupopln/.local/lib/python3.6/site-packages/keras/backend/tensorflow_backend.py:1349: calling reduce_mean (from tensorflow.python.ops.math_ops) with keep_dims is deprecated and will be removed in a future version.
+Instructions for updating:
+keep_dims is deprecated, use keepdims instead
+2018-02-16 09:18:24.144166: I tensorflow/core/platform/cpu_feature_guard.cc:137] Your CPU supports instructions that this TensorFlow binary was not compiled to use: SSE4.1 SSE4.2 AVX AVX2 FMA
+Epoch 1/20
+ - 1087s - loss: 2.4443 - mean_absolute_error: 2.4443
+Epoch 2/20
+ - 1084s - loss: 2.4216 - mean_absolute_error: 2.4216
+Epoch 3/20
+ - 1084s - loss: 2.4225 - mean_absolute_error: 2.4225
+Epoch 4/20
+ - 1086s - loss: 2.4212 - mean_absolute_error: 2.4212
+Epoch 5/20
+ - 1085s - loss: 2.4222 - mean_absolute_error: 2.4222
+Epoch 6/20
+ - 1085s - loss: 2.4199 - mean_absolute_error: 2.4199
+Epoch 7/20
+ - 1085s - loss: 2.4204 - mean_absolute_error: 2.4204
+Epoch 8/20
+ - 1085s - loss: 2.4165 - mean_absolute_error: 2.4165
+Epoch 9/20
+ - 1085s - loss: 2.4138 - mean_absolute_error: 2.4138
+Epoch 10/20
+ - 1085s - loss: 2.4150 - mean_absolute_error: 2.4150
+Epoch 11/20
+ - 1084s - loss: 2.4171 - mean_absolute_error: 2.4171
+Epoch 12/20
+ - 1084s - loss: 2.4194 - mean_absolute_error: 2.4194
+Epoch 13/20
+ - 1084s - loss: 2.4205 - mean_absolute_error: 2.4205
+Epoch 14/20
+ - 1085s - loss: 2.4157 - mean_absolute_error: 2.4157
+Epoch 15/20
+ - 1084s - loss: 2.4086 - mean_absolute_error: 2.4086
+Epoch 16/20
+ - 1086s - loss: 2.4107 - mean_absolute_error: 2.4107
+Epoch 17/20
+ - 1086s - loss: 2.4133 - mean_absolute_error: 2.4133
+Epoch 18/20
+ - 1086s - loss: 2.4127 - mean_absolute_error: 2.4127
+Epoch 19/20
+ - 1085s - loss: 2.4110 - mean_absolute_error: 2.4110
+Epoch 20/20
+ - 1084s - loss: 2.4119 - mean_absolute_error: 2.4119
+mean_absolute_error 2.43225844133329
+Creating model...

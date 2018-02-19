@@ -1,0 +1,140 @@
+(48907, 1)
+(48907, 5000) (48907,)
+Defining a RNN Model...
+Data Shape (24459, 5000)
+Creating model...
+Using TensorFlow backend.
+WARNING:tensorflow:From /home/grupopln/.local/lib/python3.6/site-packages/keras/backend/tensorflow_backend.py:1264: calling reduce_prod (from tensorflow.python.ops.math_ops) with keep_dims is deprecated and will be removed in a future version.
+Instructions for updating:
+keep_dims is deprecated, use keepdims instead
+WARNING:tensorflow:From /home/grupopln/.local/lib/python3.6/site-packages/keras/backend/tensorflow_backend.py:1349: calling reduce_mean (from tensorflow.python.ops.math_ops) with keep_dims is deprecated and will be removed in a future version.
+Instructions for updating:
+keep_dims is deprecated, use keepdims instead
+2018-02-09 10:01:22.996956: I tensorflow/core/platform/cpu_feature_guard.cc:137] Your CPU supports instructions that this TensorFlow binary was not compiled to use: SSE4.1 SSE4.2 AVX AVX2 FMA
+Epoch 1/20
+ - 215s - loss: 2.4482 - mean_absolute_error: 2.4482
+Epoch 2/20
+ - 215s - loss: 2.4317 - mean_absolute_error: 2.4317
+Epoch 3/20
+ - 215s - loss: 2.4292 - mean_absolute_error: 2.4292
+Epoch 4/20
+ - 215s - loss: 2.4316 - mean_absolute_error: 2.4316
+Epoch 5/20
+ - 214s - loss: 2.4314 - mean_absolute_error: 2.4314
+Epoch 6/20
+ - 215s - loss: 2.4325 - mean_absolute_error: 2.4325
+Epoch 7/20
+ - 215s - loss: 2.4276 - mean_absolute_error: 2.4276
+Epoch 8/20
+ - 215s - loss: 2.4240 - mean_absolute_error: 2.4240
+Epoch 9/20
+ - 214s - loss: 2.4237 - mean_absolute_error: 2.4237
+Epoch 10/20
+ - 214s - loss: 2.4227 - mean_absolute_error: 2.4227
+Epoch 11/20
+ - 215s - loss: 2.4258 - mean_absolute_error: 2.4258
+Epoch 12/20
+ - 215s - loss: 2.4256 - mean_absolute_error: 2.4256
+Epoch 13/20
+ - 215s - loss: 2.4225 - mean_absolute_error: 2.4225
+Epoch 14/20
+ - 215s - loss: 2.4240 - mean_absolute_error: 2.4240
+Epoch 15/20
+ - 214s - loss: 2.4290 - mean_absolute_error: 2.4290
+Epoch 16/20
+ - 214s - loss: 2.4379 - mean_absolute_error: 2.4379
+Epoch 17/20
+ - 215s - loss: 2.4523 - mean_absolute_error: 2.4523
+Epoch 18/20
+ - 215s - loss: 2.4849 - mean_absolute_error: 2.4849
+Epoch 19/20
+ - 214s - loss: 2.7917 - mean_absolute_error: 2.7917
+Epoch 20/20
+ - 215s - loss: 2.8031 - mean_absolute_error: 2.8031
+mean_absolute_error 2.8309273307936564
+Creating model...
+Epoch 1/20
+ - 222s - loss: 2.5771 - mean_absolute_error: 2.5771
+Epoch 2/20
+ - 215s - loss: 2.5239 - mean_absolute_error: 2.5239
+Epoch 3/20
+ - 214s - loss: 2.5330 - mean_absolute_error: 2.5330
+Epoch 4/20
+ - 214s - loss: 2.6600 - mean_absolute_error: 2.6600
+Epoch 5/20
+ - 214s - loss: 2.7481 - mean_absolute_error: 2.7481
+Epoch 6/20
+ - 215s - loss: 2.7525 - mean_absolute_error: 2.7525
+Epoch 7/20
+ - 214s - loss: 2.7434 - mean_absolute_error: 2.7434
+Epoch 8/20
+ - 214s - loss: 2.7400 - mean_absolute_error: 2.7400
+Epoch 9/20
+ - 214s - loss: 2.7373 - mean_absolute_error: 2.7373
+Epoch 10/20
+ - 214s - loss: 2.7340 - mean_absolute_error: 2.7340
+Epoch 11/20
+ - 215s - loss: 2.7285 - mean_absolute_error: 2.7285
+Epoch 12/20
+ - 215s - loss: 2.7311 - mean_absolute_error: 2.7311
+Epoch 13/20
+ - 214s - loss: 2.7193 - mean_absolute_error: 2.7193
+Epoch 14/20
+ - 215s - loss: 2.7192 - mean_absolute_error: 2.7192
+Epoch 15/20
+ - 215s - loss: 2.7105 - mean_absolute_error: 2.7105
+Epoch 16/20
+ - 215s - loss: 2.7052 - mean_absolute_error: 2.7052
+Epoch 17/20
+ - 214s - loss: 2.7082 - mean_absolute_error: 2.7082
+Epoch 18/20
+ - 215s - loss: 2.6993 - mean_absolute_error: 2.6993
+Epoch 19/20
+ - 216s - loss: 2.7032 - mean_absolute_error: 2.7032
+Epoch 20/20
+ - 214s - loss: 2.7073 - mean_absolute_error: 2.7073
+mean_absolute_error 2.8195396674601736
+Creating model...
+Epoch 1/20
+ - 224s - loss: 2.8116 - mean_absolute_error: 2.8116
+Epoch 2/20
+ - 214s - loss: 2.8072 - mean_absolute_error: 2.8072
+Epoch 3/20
+ - 214s - loss: 2.8072 - mean_absolute_error: 2.8072
+Epoch 4/20
+ - 214s - loss: 2.8072 - mean_absolute_error: 2.8072
+Epoch 5/20
+ - 216s - loss: 2.8072 - mean_absolute_error: 2.8072
+Epoch 6/20
+ - 214s - loss: 2.8072 - mean_absolute_error: 2.8072
+Epoch 7/20
+ - 214s - loss: 2.8072 - mean_absolute_error: 2.8072
+Epoch 8/20
+ - 215s - loss: 2.8072 - mean_absolute_error: 2.8072
+Epoch 9/20
+ - 214s - loss: 2.8072 - mean_absolute_error: 2.8072
+Epoch 10/20
+ - 215s - loss: 2.8072 - mean_absolute_error: 2.8072
+Epoch 11/20
+ - 215s - loss: 2.8072 - mean_absolute_error: 2.8072
+Epoch 12/20
+ - 215s - loss: 2.8072 - mean_absolute_error: 2.8072
+Epoch 13/20
+ - 214s - loss: 2.8072 - mean_absolute_error: 2.8072
+Epoch 14/20
+ - 214s - loss: 2.8072 - mean_absolute_error: 2.8072
+Epoch 15/20
+ - 214s - loss: 2.8072 - mean_absolute_error: 2.8072
+Epoch 16/20
+ - 214s - loss: 2.8072 - mean_absolute_error: 2.8072
+Epoch 17/20
+ - 215s - loss: 2.8072 - mean_absolute_error: 2.8072
+Epoch 18/20
+ - 214s - loss: 2.8072 - mean_absolute_error: 2.8072
+Epoch 19/20
+ - 214s - loss: 2.8072 - mean_absolute_error: 2.8072
+Epoch 20/20
+ - 215s - loss: 2.8072 - mean_absolute_error: 2.8072
+mean_absolute_error 2.8108903605592346
+Mean:  2.820452452937688 Std:  0.008205483005882837
+Time:  4310.046662330627
