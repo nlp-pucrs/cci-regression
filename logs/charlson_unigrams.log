@@ -1,0 +1,57 @@
+with gzip.open("data_5k_unigram.npy.gz", "rb") as wfp:   #Pickling
+
+Shape: (48907, 5000)
+
+KNeighborsRegressor
+0 mea:  1.7212 656.12
+1 mea:  1.7454 586.06
+2 mea:  1.7219 579.35
+3 mea:  1.7268 580.47
+4 mea:  1.7525 582.53
+5 mea:  1.7444 581.93
+6 mea:  1.735 577.85
+7 mea:  1.7616 579.57
+8 mea:  1.7521 581.82
+9 mea:  1.761 578.77
+MEA Mean:  1.7422 588.4481
+
+LogisticRegression
+0 mea:  2.4563 51.0
+1 mea:  2.4574 50.78
+2 mea:  2.4459 50.73
+3 mea:  2.456 48.68
+4 mea:  2.4575 50.52
+5 mea:  2.453 50.5
+6 mea:  2.4534 51.06
+7 mea:  2.3796 50.77
+8 mea:  2.4349 51.01
+9 mea:  2.4487 48.22
+MEA Mean:  2.4443 50.3264
+
+LinearSVR
+0 mea:  1.7061 2.29
+1 mea:  1.723 2.41
+2 mea:  1.7212 2.28
+3 mea:  1.7213 2.28
+4 mea:  1.71 2.28
+5 mea:  1.7286 2.29
+6 mea:  1.7269 2.28
+7 mea:  1.7141 2.28
+8 mea:  1.7383 2.28
+9 mea:  1.7223 2.29
+MEA Mean:  1.7212 2.2972
+
+RandomForestRegressor
+0 mea:  1.338 445.42
+1 mea:  1.3602 387.37
+2 mea:  1.3624 433.87
+3 mea:  1.3459 408.03
+4 mea:  1.3601 437.32
+5 mea:  1.3667 420.89
+6 mea:  1.3429 357.2
+7 mea:  1.3413 427.65
+8 mea:  1.3235 387.34
+9 mea:  1.3626 381.4
+MEA Mean:  1.3503 408.6475
+
+{'KNeighborsRegressor': '1.7422, 588.4481', 'LogisticRegression': '2.4443, 50.3264', 'LinearSVR': '1.7212, 2.2972', 'RandomForestRegressor': '1.3503, 408.6475'}
