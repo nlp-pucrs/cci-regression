@@ -9,19 +9,16 @@ import warnings
 warnings.filterwarnings('ignore')
 import gzip, pickle
 
-with gzip.open("data_matrix.pkl.gz", "rb") as d_wfp:   #Pickling
-    data_matrix = pickle.load(d_wfp)
+with gzip.open("data_5k_unigram.npy.gz", "rb") as d_wfp:   #Pickling
+    grams = pickle.load(d_wfp)
     d_wfp.close()
+data_matrix = grams.todense()
     
 with gzip.open("target_set.pkl.gz", "rb") as t_wfp:   #Pickling
     target_set = pickle.load(t_wfp)
     t_wfp.close()
     
-with gzip.open("embedding_weights.pkl.gz", "rb") as e_wfp:   #Pickling
-    embedding_weights = pickle.load(e_wfp)
-    e_wfp.close()
-    
-print(data_matrix.shape, target_set.shape, embedding_weights.shape)
+print(data_matrix.shape, target_set.shape)
 sys.stdout.flush()
 
 # ### Setup RNN Layers
@@ -42,10 +39,9 @@ lstm_0 = LSTM(units=50, recurrent_activation="hard_sigmoid", activation="sigmoid
 bi_lstm_0 = Bidirectional(lstm_0, name='bilstm0')
 
 max_length = data_matrix.shape[1]
-embedding_layer = Embedding(embedding_weights.shape[0],
-                            embedding_weights.shape[1],
-                            weights=[embedding_weights],
-                            input_length=max_length)
+embedding_layer = Embedding(output_dim=128,
+                    input_dim=max_length,
+                    input_length=max_length)
 
 
 # ### Create Model, Train and Evaluate
@@ -61,7 +57,6 @@ cvscores = []
 times = []
 
 print('Data Shape', data_matrix.shape)
-print('Weights', embedding_weights.shape)
 sys.stdout.flush()
 
 for i, (train, test) in enumerate(kfold.split(data_matrix, target_set)):
@@ -75,10 +70,10 @@ for i, (train, test) in enumerate(kfold.split(data_matrix, target_set)):
     model = Sequential()
     model.add(embedding_layer)
     
-    model.add(Conv1D(128, 5, activation='relu'))
-    model.add(MaxPooling1D(2))
-    model.add(Conv1D(128, 5, activation='relu'))
-    model.add(MaxPooling1D(5))
+    #model.add(Conv1D(128, 5, activation='relu'))
+    #model.add(MaxPooling1D(2))
+    #model.add(Conv1D(128, 5, activation='relu'))
+    #model.add(MaxPooling1D(5))
     
     #model.add(SimpleRNN(100))
     #model.add(Conv1D(50, 3, activation='relu'))
