@@ -1,147 +1,431 @@
-model = Sequential()
-model.add(embedding_layer)
-
-model.add(Conv1D(128, 5, activation='linear'))
-
-model.add(Flatten())
-
-model.add(Dense(128, activation='linear'))
-model.add(Dropout(0.5))    
-model.add(Dense(1))
-model.add(Activation('linear'))
-
-model.compile(loss='mean_absolute_error', optimizer='sgd',metrics=['mae'])
-
+(48907, 5000) (48907,) (67806, 150)
 Defining a RNN Model...
 Data Shape (48907, 5000)
 Weights (67806, 150)
-
-Creating model... # 0
+Creating model...
 Epoch 1/20
-44006/44006 [==============================] - 22s 506us/step - loss: 2.3343 - mean_absolute_error: 2.3343
+ - 41s - loss: 2.3380 - mean_absolute_error: 2.3380
 Epoch 2/20
-44006/44006 [==============================] - 20s 463us/step - loss: 2.2547 - mean_absolute_error: 2.2547
+ - 40s - loss: 2.2768 - mean_absolute_error: 2.2768
 Epoch 3/20
-44006/44006 [==============================] - 20s 463us/step - loss: 2.0716 - mean_absolute_error: 2.0716
+ - 40s - loss: 2.0717 - mean_absolute_error: 2.0717
 Epoch 4/20
-44006/44006 [==============================] - 20s 463us/step - loss: 1.9006 - mean_absolute_error: 1.9006
+ - 40s - loss: 1.7761 - mean_absolute_error: 1.7761
 Epoch 5/20
-44006/44006 [==============================] - 20s 463us/step - loss: 1.8174 - mean_absolute_error: 1.8174
+ - 40s - loss: 1.6459 - mean_absolute_error: 1.6459
 Epoch 6/20
-44006/44006 [==============================] - 20s 463us/step - loss: 1.7106 - mean_absolute_error: 1.7106
+ - 40s - loss: 1.5826 - mean_absolute_error: 1.5826
 Epoch 7/20
-44006/44006 [==============================] - 20s 464us/step - loss: 1.6777 - mean_absolute_error: 1.6777
+ - 40s - loss: 1.5463 - mean_absolute_error: 1.5463
 Epoch 8/20
-44006/44006 [==============================] - 20s 463us/step - loss: 1.6285 - mean_absolute_error: 1.6285
+ - 40s - loss: 1.5017 - mean_absolute_error: 1.5017
 Epoch 9/20
-44006/44006 [==============================] - 20s 464us/step - loss: 1.6040 - mean_absolute_error: 1.6040
+ - 40s - loss: 1.4857 - mean_absolute_error: 1.4857
 Epoch 10/20
-44006/44006 [==============================] - 20s 463us/step - loss: 1.5887 - mean_absolute_error: 1.5887
+ - 40s - loss: 1.4756 - mean_absolute_error: 1.4756
 Epoch 11/20
-44006/44006 [==============================] - 20s 463us/step - loss: 1.5663 - mean_absolute_error: 1.5663
+ - 40s - loss: 1.4526 - mean_absolute_error: 1.4526
 Epoch 12/20
-44006/44006 [==============================] - 20s 463us/step - loss: 1.5403 - mean_absolute_error: 1.5403
+ - 40s - loss: 1.4461 - mean_absolute_error: 1.4461
 Epoch 13/20
-44006/44006 [==============================] - 20s 463us/step - loss: 1.5266 - mean_absolute_error: 1.5266
+ - 40s - loss: 1.4394 - mean_absolute_error: 1.4394
 Epoch 14/20
-44006/44006 [==============================] - 20s 462us/step - loss: 1.5117 - mean_absolute_error: 1.5117
+ - 40s - loss: 1.4163 - mean_absolute_error: 1.4163
 Epoch 15/20
-44006/44006 [==============================] - 20s 463us/step - loss: 1.5122 - mean_absolute_error: 1.5122
+ - 40s - loss: 1.4188 - mean_absolute_error: 1.4188
 Epoch 16/20
-44006/44006 [==============================] - 20s 464us/step - loss: 1.4858 - mean_absolute_error: 1.4858
+ - 40s - loss: 1.3957 - mean_absolute_error: 1.3957
 Epoch 17/20
-44006/44006 [==============================] - 20s 463us/step - loss: 1.4644 - mean_absolute_error: 1.4644
+ - 40s - loss: 1.3920 - mean_absolute_error: 1.3920
 Epoch 18/20
-44006/44006 [==============================] - 20s 463us/step - loss: 1.4613 - mean_absolute_error: 1.4613
+ - 40s - loss: 1.3806 - mean_absolute_error: 1.3806
 Epoch 19/20
-44006/44006 [==============================] - 20s 463us/step - loss: 1.4433 - mean_absolute_error: 1.4433
+ - 40s - loss: 1.3716 - mean_absolute_error: 1.3716
 Epoch 20/20
-44006/44006 [==============================] - 20s 463us/step - loss: 1.4471 - mean_absolute_error: 1.4471
-mean_absolute_error 1.566125338137381
-
-Creating model... # 1
+ - 40s - loss: 1.3692 - mean_absolute_error: 1.3692
+mean_absolute_error 1.229635160131324
+Creating model...
 Epoch 1/20
-44012/44012 [==============================] - 20s 463us/step - loss: 2.1466 - mean_absolute_error: 2.1466
+ - 40s - loss: 2.1087 - mean_absolute_error: 2.1087
 Epoch 2/20
-44012/44012 [==============================] - 20s 452us/step - loss: 1.6995 - mean_absolute_error: 1.6995
+ - 40s - loss: 1.5335 - mean_absolute_error: 1.5335
 Epoch 3/20
-44012/44012 [==============================] - 20s 452us/step - loss: 1.5967 - mean_absolute_error: 1.5967
+ - 40s - loss: 1.4443 - mean_absolute_error: 1.4443
 Epoch 4/20
-44012/44012 [==============================] - 20s 451us/step - loss: 1.5385 - mean_absolute_error: 1.5385
+ - 40s - loss: 1.4142 - mean_absolute_error: 1.4142
 Epoch 5/20
-44012/44012 [==============================] - 20s 451us/step - loss: 1.5059 - mean_absolute_error: 1.5059
+ - 40s - loss: 1.3976 - mean_absolute_error: 1.3976
 Epoch 6/20
-44012/44012 [==============================] - 20s 451us/step - loss: 1.4891 - mean_absolute_error: 1.4891
+ - 40s - loss: 1.3873 - mean_absolute_error: 1.3873
 Epoch 7/20
-44012/44012 [==============================] - 20s 451us/step - loss: 1.4679 - mean_absolute_error: 1.4679
+ - 40s - loss: 1.3835 - mean_absolute_error: 1.3835
 Epoch 8/20
-44012/44012 [==============================] - 20s 452us/step - loss: 1.4468 - mean_absolute_error: 1.4468
+ - 40s - loss: 1.3683 - mean_absolute_error: 1.3683
 Epoch 9/20
-44012/44012 [==============================] - 20s 454us/step - loss: 1.4352 - mean_absolute_error: 1.4352
+ - 40s - loss: 1.3608 - mean_absolute_error: 1.3608
 Epoch 10/20
-44012/44012 [==============================] - 20s 454us/step - loss: 1.4297 - mean_absolute_error: 1.4297
+ - 40s - loss: 1.3573 - mean_absolute_error: 1.3573
 Epoch 11/20
-44012/44012 [==============================] - 20s 452us/step - loss: 1.5871 - mean_absolute_error: 1.5871
+ - 40s - loss: 1.3451 - mean_absolute_error: 1.3451
 Epoch 12/20
-44012/44012 [==============================] - 20s 451us/step - loss: 1.4137 - mean_absolute_error: 1.4137
+ - 40s - loss: 1.3443 - mean_absolute_error: 1.3443
 Epoch 13/20
-44012/44012 [==============================] - 20s 451us/step - loss: 1.4014 - mean_absolute_error: 1.4014
+ - 40s - loss: 1.3419 - mean_absolute_error: 1.3419
 Epoch 14/20
-44012/44012 [==============================] - 20s 451us/step - loss: 1.3971 - mean_absolute_error: 1.3971
+ - 40s - loss: 1.3304 - mean_absolute_error: 1.3304
 Epoch 15/20
-44012/44012 [==============================] - 20s 451us/step - loss: 1.3845 - mean_absolute_error: 1.3845
+ - 40s - loss: 1.3281 - mean_absolute_error: 1.3281
 Epoch 16/20
-44012/44012 [==============================] - 20s 453us/step - loss: 1.3804 - mean_absolute_error: 1.3804
+ - 40s - loss: 1.3198 - mean_absolute_error: 1.3198
 Epoch 17/20
-44012/44012 [==============================] - 20s 452us/step - loss: 1.5216 - mean_absolute_error: 1.5216
+ - 40s - loss: 1.3214 - mean_absolute_error: 1.3214
 Epoch 18/20
-44012/44012 [==============================] - 20s 451us/step - loss: 1.3638 - mean_absolute_error: 1.3638
+ - 40s - loss: 1.3110 - mean_absolute_error: 1.3110
 Epoch 19/20
-44012/44012 [==============================] - 20s 451us/step - loss: 1.3576 - mean_absolute_error: 1.3576
+ - 40s - loss: 1.3076 - mean_absolute_error: 1.3076
 Epoch 20/20
-44012/44012 [==============================] - 20s 451us/step - loss: 1.3539 - mean_absolute_error: 1.3539
-mean_absolute_error 1.3247792250289372
-
-Creating model... # 2
+ - 40s - loss: 1.3013 - mean_absolute_error: 1.3013
+mean_absolute_error 1.2856856004210366
+Creating model...
 Epoch 1/20
-44013/44013 [==============================] - 21s 474us/step - loss: 2.2415 - mean_absolute_error: 2.2415
+ - 40s - loss: 2.0228 - mean_absolute_error: 2.0228
 Epoch 2/20
-44013/44013 [==============================] - 20s 462us/step - loss: 1.6830 - mean_absolute_error: 1.6830
+ - 40s - loss: 1.4790 - mean_absolute_error: 1.4790
 Epoch 3/20
-44013/44013 [==============================] - 20s 463us/step - loss: 1.5131 - mean_absolute_error: 1.5131
+ - 40s - loss: 1.3965 - mean_absolute_error: 1.3965
 Epoch 4/20
-44013/44013 [==============================] - 20s 463us/step - loss: 1.4693 - mean_absolute_error: 1.4693
+ - 40s - loss: 1.3715 - mean_absolute_error: 1.3715
 Epoch 5/20
-44013/44013 [==============================] - 20s 463us/step - loss: 1.4399 - mean_absolute_error: 1.4399
+ - 40s - loss: 1.3554 - mean_absolute_error: 1.3554
 Epoch 6/20
-44013/44013 [==============================] - 20s 462us/step - loss: 1.4123 - mean_absolute_error: 1.4123
+ - 40s - loss: 1.3440 - mean_absolute_error: 1.3440
 Epoch 7/20
-44013/44013 [==============================] - 20s 463us/step - loss: 1.4125 - mean_absolute_error: 1.4125
+ - 40s - loss: 1.3292 - mean_absolute_error: 1.3292
 Epoch 8/20
-44013/44013 [==============================] - 20s 462us/step - loss: 1.3951 - mean_absolute_error: 1.3951
+ - 40s - loss: 1.3261 - mean_absolute_error: 1.3261
 Epoch 9/20
-44013/44013 [==============================] - 20s 462us/step - loss: 1.3913 - mean_absolute_error: 1.3913
+ - 40s - loss: 1.3206 - mean_absolute_error: 1.3206
 Epoch 10/20
-44013/44013 [==============================] - 20s 462us/step - loss: 1.3703 - mean_absolute_error: 1.3703
+ - 40s - loss: 1.3105 - mean_absolute_error: 1.3105
 Epoch 11/20
-44013/44013 [==============================] - 20s 462us/step - loss: 1.3698 - mean_absolute_error: 1.3698
+ - 40s - loss: 1.3059 - mean_absolute_error: 1.3059
 Epoch 12/20
-44013/44013 [==============================] - 20s 462us/step - loss: 1.3566 - mean_absolute_error: 1.3566
+ - 40s - loss: 1.3005 - mean_absolute_error: 1.3005
 Epoch 13/20
-44013/44013 [==============================] - 20s 463us/step - loss: 1.3560 - mean_absolute_error: 1.3560
+ - 40s - loss: 1.2990 - mean_absolute_error: 1.2990
 Epoch 14/20
-44013/44013 [==============================] - 20s 465us/step - loss: 1.3497 - mean_absolute_error: 1.3497
+ - 40s - loss: 1.2958 - mean_absolute_error: 1.2958
 Epoch 15/20
-44013/44013 [==============================] - 20s 462us/step - loss: 1.3394 - mean_absolute_error: 1.3394
+ - 40s - loss: 1.2848 - mean_absolute_error: 1.2848
 Epoch 16/20
-44013/44013 [==============================] - 20s 463us/step - loss: 1.3307 - mean_absolute_error: 1.3307
+ - 40s - loss: 1.2820 - mean_absolute_error: 1.2820
 Epoch 17/20
-44013/44013 [==============================] - 20s 462us/step - loss: 1.3279 - mean_absolute_error: 1.3279
+ - 40s - loss: 1.2762 - mean_absolute_error: 1.2762
 Epoch 18/20
-44013/44013 [==============================] - 20s 462us/step - loss: 1.3163 - mean_absolute_error: 1.3163
+ - 40s - loss: 1.2798 - mean_absolute_error: 1.2798
 Epoch 19/20
-44013/44013 [==============================] - 20s 464us/step - loss: 1.3164 - mean_absolute_error: 1.3164
+ - 40s - loss: 1.2734 - mean_absolute_error: 1.2734
 Epoch 20/20
-44013/44013 [==============================] - 20s 462us/step - loss: 1.3079 - mean_absolute_error: 1.3079
-mean_absolute_error 1.4441844980522813
-
+ - 40s - loss: 1.2725 - mean_absolute_error: 1.2725
+mean_absolute_error 1.2666727448659476
+Creating model...
+Epoch 1/20
+ - 40s - loss: 2.0376 - mean_absolute_error: 2.0376
+Epoch 2/20
+ - 40s - loss: 1.4479 - mean_absolute_error: 1.4479
+Epoch 3/20
+ - 40s - loss: 1.3770 - mean_absolute_error: 1.3770
+Epoch 4/20
+ - 40s - loss: 1.3416 - mean_absolute_error: 1.3416
+Epoch 5/20
+ - 40s - loss: 1.3290 - mean_absolute_error: 1.3290
+Epoch 6/20
+ - 40s - loss: 1.3123 - mean_absolute_error: 1.3123
+Epoch 7/20
+ - 40s - loss: 1.3038 - mean_absolute_error: 1.3038
+Epoch 8/20
+ - 40s - loss: 1.2972 - mean_absolute_error: 1.2972
+Epoch 9/20
+ - 40s - loss: 1.2987 - mean_absolute_error: 1.2987
+Epoch 10/20
+ - 40s - loss: 1.2807 - mean_absolute_error: 1.2807
+Epoch 11/20
+ - 40s - loss: 1.2758 - mean_absolute_error: 1.2758
+Epoch 12/20
+ - 40s - loss: 1.2781 - mean_absolute_error: 1.2781
+Epoch 13/20
+ - 40s - loss: 1.2762 - mean_absolute_error: 1.2762
+Epoch 14/20
+ - 40s - loss: 1.2684 - mean_absolute_error: 1.2684
+Epoch 15/20
+ - 40s - loss: 1.2647 - mean_absolute_error: 1.2647
+Epoch 16/20
+ - 40s - loss: 1.2568 - mean_absolute_error: 1.2568
+Epoch 17/20
+ - 40s - loss: 1.2523 - mean_absolute_error: 1.2523
+Epoch 18/20
+ - 40s - loss: 1.2544 - mean_absolute_error: 1.2544
+Epoch 19/20
+ - 40s - loss: 1.2490 - mean_absolute_error: 1.2490
+Epoch 20/20
+ - 40s - loss: 1.2449 - mean_absolute_error: 1.2449
+mean_absolute_error 1.3619828834237435
+Creating model...
+Epoch 1/20
+ - 40s - loss: 1.9150 - mean_absolute_error: 1.9150
+Epoch 2/20
+ - 40s - loss: 1.4145 - mean_absolute_error: 1.4145
+Epoch 3/20
+ - 40s - loss: 1.3591 - mean_absolute_error: 1.3591
+Epoch 4/20
+ - 40s - loss: 1.3127 - mean_absolute_error: 1.3127
+Epoch 5/20
+ - 40s - loss: 1.3061 - mean_absolute_error: 1.3061
+Epoch 6/20
+ - 40s - loss: 1.2945 - mean_absolute_error: 1.2945
+Epoch 7/20
+ - 40s - loss: 1.2840 - mean_absolute_error: 1.2840
+Epoch 8/20
+ - 40s - loss: 1.2751 - mean_absolute_error: 1.2751
+Epoch 9/20
+ - 40s - loss: 1.2720 - mean_absolute_error: 1.2720
+Epoch 10/20
+ - 40s - loss: 1.2648 - mean_absolute_error: 1.2648
+Epoch 11/20
+ - 40s - loss: 1.2608 - mean_absolute_error: 1.2608
+Epoch 12/20
+ - 40s - loss: 1.2480 - mean_absolute_error: 1.2480
+Epoch 13/20
+ - 40s - loss: 1.2444 - mean_absolute_error: 1.2444
+Epoch 14/20
+ - 40s - loss: 1.2451 - mean_absolute_error: 1.2451
+Epoch 15/20
+ - 40s - loss: 1.2358 - mean_absolute_error: 1.2358
+Epoch 16/20
+ - 40s - loss: 1.2324 - mean_absolute_error: 1.2324
+Epoch 17/20
+ - 40s - loss: 1.2304 - mean_absolute_error: 1.2304
+Epoch 18/20
+ - 40s - loss: 1.2298 - mean_absolute_error: 1.2298
+Epoch 19/20
+ - 40s - loss: 1.2242 - mean_absolute_error: 1.2242
+Epoch 20/20
+ - 40s - loss: 1.2127 - mean_absolute_error: 1.2127
+mean_absolute_error 1.160864717848774
+Creating model...
+Epoch 1/20
+ - 40s - loss: 1.9294 - mean_absolute_error: 1.9294
+Epoch 2/20
+ - 40s - loss: 1.4128 - mean_absolute_error: 1.4128
+Epoch 3/20
+ - 40s - loss: 1.3359 - mean_absolute_error: 1.3359
+Epoch 4/20
+ - 40s - loss: 1.3086 - mean_absolute_error: 1.3086
+Epoch 5/20
+ - 40s - loss: 1.2848 - mean_absolute_error: 1.2848
+Epoch 6/20
+ - 40s - loss: 1.2698 - mean_absolute_error: 1.2698
+Epoch 7/20
+ - 40s - loss: 1.2624 - mean_absolute_error: 1.2624
+Epoch 8/20
+ - 40s - loss: 1.2522 - mean_absolute_error: 1.2522
+Epoch 9/20
+ - 40s - loss: 1.2484 - mean_absolute_error: 1.2484
+Epoch 10/20
+ - 40s - loss: 1.2475 - mean_absolute_error: 1.2475
+Epoch 11/20
+ - 40s - loss: 1.2318 - mean_absolute_error: 1.2318
+Epoch 12/20
+ - 40s - loss: 1.2319 - mean_absolute_error: 1.2319
+Epoch 13/20
+ - 40s - loss: 1.2278 - mean_absolute_error: 1.2278
+Epoch 14/20
+ - 40s - loss: 1.2207 - mean_absolute_error: 1.2207
+Epoch 15/20
+ - 40s - loss: 1.2161 - mean_absolute_error: 1.2161
+Epoch 16/20
+ - 40s - loss: 1.2141 - mean_absolute_error: 1.2141
+Epoch 17/20
+ - 40s - loss: 1.2055 - mean_absolute_error: 1.2055
+Epoch 18/20
+ - 40s - loss: 1.2068 - mean_absolute_error: 1.2068
+Epoch 19/20
+ - 40s - loss: 1.2027 - mean_absolute_error: 1.2027
+Epoch 20/20
+ - 40s - loss: 1.1987 - mean_absolute_error: 1.1987
+mean_absolute_error 1.1926236308605478
+Creating model...
+Epoch 1/20
+ - 40s - loss: 1.9028 - mean_absolute_error: 1.9028
+Epoch 2/20
+ - 40s - loss: 1.4042 - mean_absolute_error: 1.4042
+Epoch 3/20
+ - 40s - loss: 1.3229 - mean_absolute_error: 1.3229
+Epoch 4/20
+ - 40s - loss: 1.3012 - mean_absolute_error: 1.3012
+Epoch 5/20
+ - 40s - loss: 1.2778 - mean_absolute_error: 1.2778
+Epoch 6/20
+ - 40s - loss: 1.2542 - mean_absolute_error: 1.2542
+Epoch 7/20
+ - 40s - loss: 1.2451 - mean_absolute_error: 1.2451
+Epoch 8/20
+ - 40s - loss: 1.2370 - mean_absolute_error: 1.2370
+Epoch 9/20
+ - 40s - loss: 1.2304 - mean_absolute_error: 1.2304
+Epoch 10/20
+ - 40s - loss: 1.2259 - mean_absolute_error: 1.2259
+Epoch 11/20
+ - 40s - loss: 1.2183 - mean_absolute_error: 1.2183
+Epoch 12/20
+ - 40s - loss: 1.2148 - mean_absolute_error: 1.2148
+Epoch 13/20
+ - 40s - loss: 1.2037 - mean_absolute_error: 1.2037
+Epoch 14/20
+ - 40s - loss: 1.2038 - mean_absolute_error: 1.2038
+Epoch 15/20
+ - 40s - loss: 1.2013 - mean_absolute_error: 1.2013
+Epoch 16/20
+ - 40s - loss: 1.1988 - mean_absolute_error: 1.1988
+Epoch 17/20
+ - 40s - loss: 1.1965 - mean_absolute_error: 1.1965
+Epoch 18/20
+ - 40s - loss: 1.1914 - mean_absolute_error: 1.1914
+Epoch 19/20
+ - 40s - loss: 1.1842 - mean_absolute_error: 1.1842
+Epoch 20/20
+ - 40s - loss: 1.1919 - mean_absolute_error: 1.1919
+mean_absolute_error 1.5339544958841975
+Creating model...
+Epoch 1/20
+ - 40s - loss: 1.9257 - mean_absolute_error: 1.9257
+Epoch 2/20
+ - 40s - loss: 1.3844 - mean_absolute_error: 1.3844
+Epoch 3/20
+ - 40s - loss: 1.2964 - mean_absolute_error: 1.2964
+Epoch 4/20
+ - 40s - loss: 1.2742 - mean_absolute_error: 1.2742
+Epoch 5/20
+ - 40s - loss: 1.2406 - mean_absolute_error: 1.2406
+Epoch 6/20
+ - 40s - loss: 1.2331 - mean_absolute_error: 1.2331
+Epoch 7/20
+ - 40s - loss: 1.2175 - mean_absolute_error: 1.2175
+Epoch 8/20
+ - 40s - loss: 1.2075 - mean_absolute_error: 1.2075
+Epoch 9/20
+ - 40s - loss: 1.1988 - mean_absolute_error: 1.1988
+Epoch 10/20
+ - 40s - loss: 1.1994 - mean_absolute_error: 1.1994
+Epoch 11/20
+ - 40s - loss: 1.1884 - mean_absolute_error: 1.1884
+Epoch 12/20
+ - 40s - loss: 1.1896 - mean_absolute_error: 1.1896
+Epoch 13/20
+ - 40s - loss: 1.1823 - mean_absolute_error: 1.1823
+Epoch 14/20
+ - 40s - loss: 1.1808 - mean_absolute_error: 1.1808
+Epoch 15/20
+ - 40s - loss: 1.1726 - mean_absolute_error: 1.1726
+Epoch 16/20
+ - 40s - loss: 1.1668 - mean_absolute_error: 1.1668
+Epoch 17/20
+ - 40s - loss: 1.1605 - mean_absolute_error: 1.1605
+Epoch 18/20
+ - 40s - loss: 1.1671 - mean_absolute_error: 1.1671
+Epoch 19/20
+ - 40s - loss: 1.1571 - mean_absolute_error: 1.1571
+Epoch 20/20
+ - 40s - loss: 1.1522 - mean_absolute_error: 1.1522
+mean_absolute_error 1.3052983711451913
+Creating model...
+Epoch 1/20
+ - 40s - loss: 1.8406 - mean_absolute_error: 1.8406
+Epoch 2/20
+ - 40s - loss: 1.3603 - mean_absolute_error: 1.3603
+Epoch 3/20
+ - 40s - loss: 1.2662 - mean_absolute_error: 1.2662
+Epoch 4/20
+ - 40s - loss: 1.2318 - mean_absolute_error: 1.2318
+Epoch 5/20
+ - 40s - loss: 1.2164 - mean_absolute_error: 1.2164
+Epoch 6/20
+ - 40s - loss: 1.1964 - mean_absolute_error: 1.1964
+Epoch 7/20
+ - 40s - loss: 1.1870 - mean_absolute_error: 1.1870
+Epoch 8/20
+ - 40s - loss: 1.1699 - mean_absolute_error: 1.1699
+Epoch 9/20
+ - 40s - loss: 1.1686 - mean_absolute_error: 1.1686
+Epoch 10/20
+ - 40s - loss: 1.1631 - mean_absolute_error: 1.1631
+Epoch 11/20
+ - 40s - loss: 1.1553 - mean_absolute_error: 1.1553
+Epoch 12/20
+ - 40s - loss: 1.1573 - mean_absolute_error: 1.1573
+Epoch 13/20
+ - 40s - loss: 1.1445 - mean_absolute_error: 1.1445
+Epoch 14/20
+ - 40s - loss: 1.1468 - mean_absolute_error: 1.1468
+Epoch 15/20
+ - 40s - loss: 1.1381 - mean_absolute_error: 1.1381
+Epoch 16/20
+ - 40s - loss: 1.1333 - mean_absolute_error: 1.1333
+Epoch 17/20
+ - 40s - loss: 1.1352 - mean_absolute_error: 1.1352
+Epoch 18/20
+ - 40s - loss: 1.1281 - mean_absolute_error: 1.1281
+Epoch 19/20
+ - 40s - loss: 1.1261 - mean_absolute_error: 1.1261
+Epoch 20/20
+ - 40s - loss: 1.1262 - mean_absolute_error: 1.1262
+mean_absolute_error 1.5454384321173318
+Creating model...
+Epoch 1/20
+ - 40s - loss: 1.8069 - mean_absolute_error: 1.8069
+Epoch 2/20
+ - 40s - loss: 1.3250 - mean_absolute_error: 1.3250
+Epoch 3/20
+ - 40s - loss: 1.2501 - mean_absolute_error: 1.2501
+Epoch 4/20
+ - 40s - loss: 1.2198 - mean_absolute_error: 1.2198
+Epoch 5/20
+ - 40s - loss: 1.1887 - mean_absolute_error: 1.1887
+Epoch 6/20
+ - 40s - loss: 1.1763 - mean_absolute_error: 1.1763
+Epoch 7/20
+ - 40s - loss: 1.1624 - mean_absolute_error: 1.1624
+Epoch 8/20
+ - 40s - loss: 1.1557 - mean_absolute_error: 1.1557
+Epoch 9/20
+ - 40s - loss: 1.1496 - mean_absolute_error: 1.1496
+Epoch 10/20
+ - 40s - loss: 1.1438 - mean_absolute_error: 1.1438
+Epoch 11/20
+ - 40s - loss: 1.1315 - mean_absolute_error: 1.1315
+Epoch 12/20
+ - 40s - loss: 1.1312 - mean_absolute_error: 1.1312
+Epoch 13/20
+ - 40s - loss: 1.1241 - mean_absolute_error: 1.1241
+Epoch 14/20
+ - 40s - loss: 1.1180 - mean_absolute_error: 1.1180
+Epoch 15/20
+ - 40s - loss: 1.1201 - mean_absolute_error: 1.1201
+Epoch 16/20
+ - 40s - loss: 1.1103 - mean_absolute_error: 1.1103
+Epoch 17/20
+ - 40s - loss: 1.1102 - mean_absolute_error: 1.1102
+Epoch 18/20
+ - 40s - loss: 1.1032 - mean_absolute_error: 1.1032
+Epoch 19/20
+ - 40s - loss: 1.0969 - mean_absolute_error: 1.0969
+Epoch 20/20
+ - 40s - loss: 1.1001 - mean_absolute_error: 1.1001
+mean_absolute_error 1.7293468954523095
+Using Theano backend.
+Using cuDNN version 7005 on context None
+Mapped name None to device cuda: Tesla V100-SXM2-16GB (0000:00:1E.0)
+Traceback (most recent call last):
+  File "charlson_rnn.py", line 119, in <module>
+    print('Mean: ', np.mean(cvscores), 'Std: ', np.std(cvscores))
+NameError: name 'np' is not defined

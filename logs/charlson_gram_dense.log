@@ -1,0 +1,428 @@
+(48907, 5000) (48907,)
+Defining a RNN Model...
+Data Shape (48907, 5000)
+Creating model... # 0
+Epoch 1/20
+ - 7s - loss: 2.4383 - mean_absolute_error: 2.4383
+Epoch 2/20
+ - 6s - loss: 2.4243 - mean_absolute_error: 2.4243
+Epoch 3/20
+ - 6s - loss: 2.4270 - mean_absolute_error: 2.4270
+Epoch 4/20
+ - 6s - loss: 2.4182 - mean_absolute_error: 2.4182
+Epoch 5/20
+ - 6s - loss: 2.4202 - mean_absolute_error: 2.4202
+Epoch 6/20
+ - 6s - loss: 2.4154 - mean_absolute_error: 2.4154
+Epoch 7/20
+ - 6s - loss: 2.4173 - mean_absolute_error: 2.4173
+Epoch 8/20
+ - 6s - loss: 2.4142 - mean_absolute_error: 2.4142
+Epoch 9/20
+ - 6s - loss: 2.4132 - mean_absolute_error: 2.4132
+Epoch 10/20
+ - 6s - loss: 2.4108 - mean_absolute_error: 2.4108
+Epoch 11/20
+ - 6s - loss: 2.4093 - mean_absolute_error: 2.4093
+Epoch 12/20
+ - 6s - loss: 2.4121 - mean_absolute_error: 2.4121
+Epoch 13/20
+ - 6s - loss: 2.4101 - mean_absolute_error: 2.4101
+Epoch 14/20
+ - 6s - loss: 2.4098 - mean_absolute_error: 2.4098
+Epoch 15/20
+ - 6s - loss: 2.4089 - mean_absolute_error: 2.4089
+Epoch 16/20
+ - 6s - loss: 2.4050 - mean_absolute_error: 2.4050
+Epoch 17/20
+ - 6s - loss: 2.4076 - mean_absolute_error: 2.4076
+Epoch 18/20
+ - 6s - loss: 2.4077 - mean_absolute_error: 2.4077
+Epoch 19/20
+ - 6s - loss: 2.4075 - mean_absolute_error: 2.4075
+Epoch 20/20
+ - 6s - loss: 2.4061 - mean_absolute_error: 2.4061
+mean_absolute_error 2.4352337162583684
+Creating model... # 1
+Epoch 1/20
+ - 6s - loss: 2.4387 - mean_absolute_error: 2.4387
+Epoch 2/20
+ - 6s - loss: 2.4288 - mean_absolute_error: 2.4288
+Epoch 3/20
+ - 6s - loss: 2.4267 - mean_absolute_error: 2.4267
+Epoch 4/20
+ - 6s - loss: 2.4217 - mean_absolute_error: 2.4217
+Epoch 5/20
+ - 6s - loss: 2.4173 - mean_absolute_error: 2.4173
+Epoch 6/20
+ - 6s - loss: 2.4182 - mean_absolute_error: 2.4182
+Epoch 7/20
+ - 6s - loss: 2.4176 - mean_absolute_error: 2.4176
+Epoch 8/20
+ - 6s - loss: 2.4133 - mean_absolute_error: 2.4133
+Epoch 9/20
+ - 6s - loss: 2.4140 - mean_absolute_error: 2.4140
+Epoch 10/20
+ - 6s - loss: 2.4145 - mean_absolute_error: 2.4145
+Epoch 11/20
+ - 6s - loss: 2.4105 - mean_absolute_error: 2.4105
+Epoch 12/20
+ - 6s - loss: 2.4118 - mean_absolute_error: 2.4118
+Epoch 13/20
+ - 6s - loss: 2.4088 - mean_absolute_error: 2.4088
+Epoch 14/20
+ - 6s - loss: 2.4094 - mean_absolute_error: 2.4094
+Epoch 15/20
+ - 6s - loss: 2.4080 - mean_absolute_error: 2.4080
+Epoch 16/20
+ - 6s - loss: 2.4068 - mean_absolute_error: 2.4068
+Epoch 17/20
+ - 6s - loss: 2.4074 - mean_absolute_error: 2.4074
+Epoch 18/20
+ - 6s - loss: 2.4057 - mean_absolute_error: 2.4057
+Epoch 19/20
+ - 6s - loss: 2.4045 - mean_absolute_error: 2.4045
+Epoch 20/20
+ - 6s - loss: 2.4036 - mean_absolute_error: 2.4036
+mean_absolute_error 2.4052331292714477
+Creating model... # 2
+Epoch 1/20
+ - 6s - loss: 2.4315 - mean_absolute_error: 2.4315
+Epoch 2/20
+ - 6s - loss: 2.4324 - mean_absolute_error: 2.4324
+Epoch 3/20
+ - 6s - loss: 2.4202 - mean_absolute_error: 2.4202
+Epoch 4/20
+ - 6s - loss: 2.4223 - mean_absolute_error: 2.4223
+Epoch 5/20
+ - 6s - loss: 2.4197 - mean_absolute_error: 2.4197
+Epoch 6/20
+ - 6s - loss: 2.4162 - mean_absolute_error: 2.4162
+Epoch 7/20
+ - 6s - loss: 2.4149 - mean_absolute_error: 2.4149
+Epoch 8/20
+ - 6s - loss: 2.4179 - mean_absolute_error: 2.4179
+Epoch 9/20
+ - 6s - loss: 2.4131 - mean_absolute_error: 2.4131
+Epoch 10/20
+ - 6s - loss: 2.4117 - mean_absolute_error: 2.4117
+Epoch 11/20
+ - 6s - loss: 2.4103 - mean_absolute_error: 2.4103
+Epoch 12/20
+ - 6s - loss: 2.4107 - mean_absolute_error: 2.4107
+Epoch 13/20
+ - 6s - loss: 2.4089 - mean_absolute_error: 2.4089
+Epoch 14/20
+ - 6s - loss: 2.4100 - mean_absolute_error: 2.4100
+Epoch 15/20
+ - 6s - loss: 2.4094 - mean_absolute_error: 2.4094
+Epoch 16/20
+ - 6s - loss: 2.4068 - mean_absolute_error: 2.4068
+Epoch 17/20
+ - 6s - loss: 2.4071 - mean_absolute_error: 2.4071
+Epoch 18/20
+ - 6s - loss: 2.4069 - mean_absolute_error: 2.4069
+Epoch 19/20
+ - 6s - loss: 2.4060 - mean_absolute_error: 2.4060
+Epoch 20/20
+ - 6s - loss: 2.4049 - mean_absolute_error: 2.4049
+mean_absolute_error 2.4067332283740246
+Creating model... # 3
+Epoch 1/20
+ - 6s - loss: 2.4383 - mean_absolute_error: 2.4383
+Epoch 2/20
+ - 6s - loss: 2.4300 - mean_absolute_error: 2.4300
+Epoch 3/20
+ - 6s - loss: 2.4247 - mean_absolute_error: 2.4247
+Epoch 4/20
+ - 6s - loss: 2.4215 - mean_absolute_error: 2.4215
+Epoch 5/20
+ - 6s - loss: 2.4197 - mean_absolute_error: 2.4197
+Epoch 6/20
+ - 6s - loss: 2.4200 - mean_absolute_error: 2.4200
+Epoch 7/20
+ - 6s - loss: 2.4170 - mean_absolute_error: 2.4170
+Epoch 8/20
+ - 6s - loss: 2.4151 - mean_absolute_error: 2.4151
+Epoch 9/20
+ - 6s - loss: 2.4162 - mean_absolute_error: 2.4162
+Epoch 10/20
+ - 6s - loss: 2.4125 - mean_absolute_error: 2.4125
+Epoch 11/20
+ - 6s - loss: 2.4107 - mean_absolute_error: 2.4107
+Epoch 12/20
+ - 6s - loss: 2.4116 - mean_absolute_error: 2.4116
+Epoch 13/20
+ - 6s - loss: 2.4117 - mean_absolute_error: 2.4117
+Epoch 14/20
+ - 6s - loss: 2.4102 - mean_absolute_error: 2.4102
+Epoch 15/20
+ - 6s - loss: 2.4083 - mean_absolute_error: 2.4083
+Epoch 16/20
+ - 6s - loss: 2.4094 - mean_absolute_error: 2.4094
+Epoch 17/20
+ - 6s - loss: 2.4076 - mean_absolute_error: 2.4076
+Epoch 18/20
+ - 6s - loss: 2.4062 - mean_absolute_error: 2.4062
+Epoch 19/20
+ - 6s - loss: 2.4061 - mean_absolute_error: 2.4061
+Epoch 20/20
+ - 6s - loss: 2.4040 - mean_absolute_error: 2.4040
+mean_absolute_error 2.4125959696322403
+Creating model... # 4
+Epoch 1/20
+ - 6s - loss: 2.4369 - mean_absolute_error: 2.4369
+Epoch 2/20
+ - 6s - loss: 2.4269 - mean_absolute_error: 2.4269
+Epoch 3/20
+ - 6s - loss: 2.4249 - mean_absolute_error: 2.4249
+Epoch 4/20
+ - 6s - loss: 2.4209 - mean_absolute_error: 2.4209
+Epoch 5/20
+ - 6s - loss: 2.4188 - mean_absolute_error: 2.4188
+Epoch 6/20
+ - 6s - loss: 2.4196 - mean_absolute_error: 2.4196
+Epoch 7/20
+ - 6s - loss: 2.4173 - mean_absolute_error: 2.4173
+Epoch 8/20
+ - 6s - loss: 2.4146 - mean_absolute_error: 2.4146
+Epoch 9/20
+ - 6s - loss: 2.4141 - mean_absolute_error: 2.4141
+Epoch 10/20
+ - 6s - loss: 2.4145 - mean_absolute_error: 2.4145
+Epoch 11/20
+ - 6s - loss: 2.4116 - mean_absolute_error: 2.4116
+Epoch 12/20
+ - 6s - loss: 2.4112 - mean_absolute_error: 2.4112
+Epoch 13/20
+ - 6s - loss: 2.4105 - mean_absolute_error: 2.4105
+Epoch 14/20
+ - 6s - loss: 2.4115 - mean_absolute_error: 2.4115
+Epoch 15/20
+ - 6s - loss: 2.4098 - mean_absolute_error: 2.4098
+Epoch 16/20
+ - 6s - loss: 2.4076 - mean_absolute_error: 2.4076
+Epoch 17/20
+ - 6s - loss: 2.4060 - mean_absolute_error: 2.4060
+Epoch 18/20
+ - 6s - loss: 2.4077 - mean_absolute_error: 2.4077
+Epoch 19/20
+ - 6s - loss: 2.4067 - mean_absolute_error: 2.4067
+Epoch 20/20
+ - 6s - loss: 2.4062 - mean_absolute_error: 2.4062
+mean_absolute_error 2.4039937601531913
+Creating model... # 5
+Epoch 1/20
+ - 6s - loss: 2.4336 - mean_absolute_error: 2.4336
+Epoch 2/20
+ - 6s - loss: 2.4284 - mean_absolute_error: 2.4284
+Epoch 3/20
+ - 6s - loss: 2.4205 - mean_absolute_error: 2.4205
+Epoch 4/20
+ - 6s - loss: 2.4233 - mean_absolute_error: 2.4233
+Epoch 5/20
+ - 6s - loss: 2.4189 - mean_absolute_error: 2.4189
+Epoch 6/20
+ - 6s - loss: 2.4152 - mean_absolute_error: 2.4152
+Epoch 7/20
+ - 6s - loss: 2.4158 - mean_absolute_error: 2.4158
+Epoch 8/20
+ - 6s - loss: 2.4131 - mean_absolute_error: 2.4131
+Epoch 9/20
+ - 6s - loss: 2.4169 - mean_absolute_error: 2.4169
+Epoch 10/20
+ - 6s - loss: 2.4135 - mean_absolute_error: 2.4135
+Epoch 11/20
+ - 6s - loss: 2.4116 - mean_absolute_error: 2.4116
+Epoch 12/20
+ - 6s - loss: 2.4107 - mean_absolute_error: 2.4107
+Epoch 13/20
+ - 6s - loss: 2.4112 - mean_absolute_error: 2.4112
+Epoch 14/20
+ - 6s - loss: 2.4101 - mean_absolute_error: 2.4101
+Epoch 15/20
+ - 6s - loss: 2.4096 - mean_absolute_error: 2.4096
+Epoch 16/20
+ - 6s - loss: 2.4100 - mean_absolute_error: 2.4100
+Epoch 17/20
+ - 6s - loss: 2.4073 - mean_absolute_error: 2.4073
+Epoch 18/20
+ - 6s - loss: 2.4078 - mean_absolute_error: 2.4078
+Epoch 19/20
+ - 6s - loss: 2.4080 - mean_absolute_error: 2.4080
+Epoch 20/20
+ - 6s - loss: 2.4054 - mean_absolute_error: 2.4054
+mean_absolute_error 2.402948880137134
+Creating model... # 6
+Epoch 1/20
+ - 6s - loss: 2.4366 - mean_absolute_error: 2.4366
+Epoch 2/20
+ - 6s - loss: 2.4303 - mean_absolute_error: 2.4303
+Epoch 3/20
+ - 6s - loss: 2.4232 - mean_absolute_error: 2.4232
+Epoch 4/20
+ - 6s - loss: 2.4165 - mean_absolute_error: 2.4165
+Epoch 5/20
+ - 6s - loss: 2.4227 - mean_absolute_error: 2.4227
+Epoch 6/20
+ - 6s - loss: 2.4182 - mean_absolute_error: 2.4182
+Epoch 7/20
+ - 6s - loss: 2.4185 - mean_absolute_error: 2.4185
+Epoch 8/20
+ - 6s - loss: 2.4142 - mean_absolute_error: 2.4142
+Epoch 9/20
+ - 6s - loss: 2.4148 - mean_absolute_error: 2.4148
+Epoch 10/20
+ - 6s - loss: 2.4147 - mean_absolute_error: 2.4147
+Epoch 11/20
+ - 6s - loss: 2.4113 - mean_absolute_error: 2.4113
+Epoch 12/20
+ - 6s - loss: 2.4134 - mean_absolute_error: 2.4134
+Epoch 13/20
+ - 6s - loss: 2.4123 - mean_absolute_error: 2.4123
+Epoch 14/20
+ - 6s - loss: 2.4110 - mean_absolute_error: 2.4110
+Epoch 15/20
+ - 6s - loss: 2.4096 - mean_absolute_error: 2.4096
+Epoch 16/20
+ - 6s - loss: 2.4094 - mean_absolute_error: 2.4094
+Epoch 17/20
+ - 6s - loss: 2.4098 - mean_absolute_error: 2.4098
+Epoch 18/20
+ - 6s - loss: 2.4094 - mean_absolute_error: 2.4094
+Epoch 19/20
+ - 6s - loss: 2.4067 - mean_absolute_error: 2.4067
+Epoch 20/20
+ - 6s - loss: 2.4088 - mean_absolute_error: 2.4088
+mean_absolute_error 2.3983134204939422
+Creating model... # 7
+Epoch 1/20
+ - 6s - loss: 2.4277 - mean_absolute_error: 2.4277
+Epoch 2/20
+ - 6s - loss: 2.4280 - mean_absolute_error: 2.4280
+Epoch 3/20
+ - 6s - loss: 2.4241 - mean_absolute_error: 2.4241
+Epoch 4/20
+ - 6s - loss: 2.4219 - mean_absolute_error: 2.4219
+Epoch 5/20
+ - 6s - loss: 2.4203 - mean_absolute_error: 2.4203
+Epoch 6/20
+ - 6s - loss: 2.4202 - mean_absolute_error: 2.4202
+Epoch 7/20
+ - 6s - loss: 2.4153 - mean_absolute_error: 2.4153
+Epoch 8/20
+ - 6s - loss: 2.4176 - mean_absolute_error: 2.4176
+Epoch 9/20
+ - 6s - loss: 2.4133 - mean_absolute_error: 2.4133
+Epoch 10/20
+ - 6s - loss: 2.4135 - mean_absolute_error: 2.4135
+Epoch 11/20
+ - 6s - loss: 2.4127 - mean_absolute_error: 2.4127
+Epoch 12/20
+ - 6s - loss: 2.4142 - mean_absolute_error: 2.4142
+Epoch 13/20
+ - 6s - loss: 2.4125 - mean_absolute_error: 2.4125
+Epoch 14/20
+ - 6s - loss: 2.4111 - mean_absolute_error: 2.4111
+Epoch 15/20
+ - 6s - loss: 2.4098 - mean_absolute_error: 2.4098
+Epoch 16/20
+ - 6s - loss: 2.4104 - mean_absolute_error: 2.4104
+Epoch 17/20
+ - 6s - loss: 2.4093 - mean_absolute_error: 2.4093
+Epoch 18/20
+ - 6s - loss: 2.4090 - mean_absolute_error: 2.4090
+Epoch 19/20
+ - 6s - loss: 2.4087 - mean_absolute_error: 2.4087
+Epoch 20/20
+ - 6s - loss: 2.4083 - mean_absolute_error: 2.4083
+mean_absolute_error 2.395617157135447
+Creating model... # 8
+Epoch 1/20
+ - 6s - loss: 2.4394 - mean_absolute_error: 2.4394
+Epoch 2/20
+ - 6s - loss: 2.4291 - mean_absolute_error: 2.4291
+Epoch 3/20
+ - 6s - loss: 2.4259 - mean_absolute_error: 2.4259
+Epoch 4/20
+ - 6s - loss: 2.4255 - mean_absolute_error: 2.4255
+Epoch 5/20
+ - 6s - loss: 2.4175 - mean_absolute_error: 2.4175
+Epoch 6/20
+ - 6s - loss: 2.4194 - mean_absolute_error: 2.4194
+Epoch 7/20
+ - 6s - loss: 2.4166 - mean_absolute_error: 2.4166
+Epoch 8/20
+ - 6s - loss: 2.4169 - mean_absolute_error: 2.4169
+Epoch 9/20
+ - 6s - loss: 2.4128 - mean_absolute_error: 2.4128
+Epoch 10/20
+ - 6s - loss: 2.4126 - mean_absolute_error: 2.4126
+Epoch 11/20
+ - 6s - loss: 2.4136 - mean_absolute_error: 2.4136
+Epoch 12/20
+ - 6s - loss: 2.4086 - mean_absolute_error: 2.4086
+Epoch 13/20
+ - 6s - loss: 2.4127 - mean_absolute_error: 2.4127
+Epoch 14/20
+ - 6s - loss: 2.4116 - mean_absolute_error: 2.4116
+Epoch 15/20
+ - 6s - loss: 2.4101 - mean_absolute_error: 2.4101
+Epoch 16/20
+ - 6s - loss: 2.4098 - mean_absolute_error: 2.4098
+Epoch 17/20
+ - 6s - loss: 2.4098 - mean_absolute_error: 2.4098
+Epoch 18/20
+ - 6s - loss: 2.4091 - mean_absolute_error: 2.4091
+Epoch 19/20
+ - 6s - loss: 2.4092 - mean_absolute_error: 2.4092
+Epoch 20/20
+ - 6s - loss: 2.4067 - mean_absolute_error: 2.4067
+mean_absolute_error 2.3893103629820613
+Creating model... # 9
+Epoch 1/20
+ - 6s - loss: 2.4358 - mean_absolute_error: 2.4358
+Epoch 2/20
+ - 6s - loss: 2.4293 - mean_absolute_error: 2.4293
+Epoch 3/20
+ - 6s - loss: 2.4289 - mean_absolute_error: 2.4289
+Epoch 4/20
+ - 6s - loss: 2.4255 - mean_absolute_error: 2.4255
+Epoch 5/20
+ - 6s - loss: 2.4229 - mean_absolute_error: 2.4229
+Epoch 6/20
+ - 6s - loss: 2.4189 - mean_absolute_error: 2.4189
+Epoch 7/20
+ - 6s - loss: 2.4189 - mean_absolute_error: 2.4189
+Epoch 8/20
+ - 6s - loss: 2.4149 - mean_absolute_error: 2.4149
+Epoch 9/20
+ - 6s - loss: 2.4140 - mean_absolute_error: 2.4140
+Epoch 10/20
+ - 6s - loss: 2.4162 - mean_absolute_error: 2.4162
+Epoch 11/20
+ - 6s - loss: 2.4113 - mean_absolute_error: 2.4113
+Epoch 12/20
+ - 6s - loss: 2.4111 - mean_absolute_error: 2.4111
+Epoch 13/20
+ - 6s - loss: 2.4118 - mean_absolute_error: 2.4118
+Epoch 14/20
+ - 6s - loss: 2.4099 - mean_absolute_error: 2.4099
+Epoch 15/20
+ - 6s - loss: 2.4104 - mean_absolute_error: 2.4104
+Epoch 16/20
+ - 6s - loss: 2.4083 - mean_absolute_error: 2.4083
+Epoch 17/20
+ - 6s - loss: 2.4099 - mean_absolute_error: 2.4099
+Epoch 18/20
+ - 6s - loss: 2.4084 - mean_absolute_error: 2.4084
+Epoch 19/20
+ - 6s - loss: 2.4086 - mean_absolute_error: 2.4086
+Epoch 20/20
+ - 6s - loss: 2.4071 - mean_absolute_error: 2.4071
+mean_absolute_error 2.392561554273881
+Mean:  2.404254117871174 Std:  0.01228054852466819
+Time:  132.22350952625274
+Using Theano backend.
+Using cuDNN version 7005 on context None
+Mapped name None to device cuda: Tesla V100-SXM2-16GB (0000:00:1E.0)

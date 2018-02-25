@@ -1,0 +1,66 @@
+(48907, 5000) (48907,)
+Defining a RNN Model...
+Data Shape (48907, 5000)
+Creating model... # 0
+Epoch 1/20
+ - 43s - loss: 2.4222 - mean_absolute_error: 2.4222
+Epoch 2/20
+ - 42s - loss: 2.4171 - mean_absolute_error: 2.4171
+Epoch 3/20
+ - 42s - loss: 2.4131 - mean_absolute_error: 2.4131
+Epoch 4/20
+ - 42s - loss: 2.4127 - mean_absolute_error: 2.4127
+Epoch 5/20
+ - 42s - loss: 2.4115 - mean_absolute_error: 2.4115
+Epoch 6/20
+ - 42s - loss: 2.4107 - mean_absolute_error: 2.4107
+Epoch 7/20
+ - 42s - loss: 2.4092 - mean_absolute_error: 2.4092
+Epoch 8/20
+ - 42s - loss: 2.4092 - mean_absolute_error: 2.4092
+Epoch 9/20
+ - 42s - loss: 2.4102 - mean_absolute_error: 2.4102
+Epoch 10/20
+ - 42s - loss: 2.4081 - mean_absolute_error: 2.4081
+Epoch 11/20
+ - 42s - loss: 2.4095 - mean_absolute_error: 2.4095
+Epoch 12/20
+ - 42s - loss: 2.4090 - mean_absolute_error: 2.4090
+Epoch 13/20
+ - 42s - loss: 2.4066 - mean_absolute_error: 2.4066
+Epoch 14/20
+ - 42s - loss: 2.4086 - mean_absolute_error: 2.4086
+Epoch 15/20
+ - 42s - loss: 2.4064 - mean_absolute_error: 2.4064
+Epoch 16/20
+ - 42s - loss: 2.4063 - mean_absolute_error: 2.4063
+Epoch 17/20
+ - 42s - loss: 2.4082 - mean_absolute_error: 2.4082
+Epoch 18/20
+ - 42s - loss: 2.4068 - mean_absolute_error: 2.4068
+Epoch 19/20
+ - 42s - loss: 2.4076 - mean_absolute_error: 2.4076
+Epoch 20/20
+ - 42s - loss: 2.4070 - mean_absolute_error: 2.4070
+mean_absolute_error 2.4507637287592114
+Creating model... # 1
+Epoch 1/20
+ - 42s - loss: 2.4259 - mean_absolute_error: 2.4259
+Epoch 2/20
+ - 42s - loss: 2.4162 - mean_absolute_error: 2.4162
+Epoch 3/20
+ - 42s - loss: 2.4139 - mean_absolute_error: 2.4139
+Epoch 4/20
+ - 42s - loss: 2.4131 - mean_absolute_error: 2.4131
+Epoch 5/20
+ - 42s - loss: 2.4125 - mean_absolute_error: 2.4125
+Epoch 6/20
+ - 42s - loss: 2.4133 - mean_absolute_error: 2.4133
+Epoch 7/20
+ - 42s - loss: 2.4105 - mean_absolute_error: 2.4105
+Epoch 8/20
+ - 42s - loss: 2.4113 - mean_absolute_error: 2.4113
+Epoch 9/20
+ - 42s - loss: 2.4088 - mean_absolute_error: 2.4088
+Epoch 10/20
+ - 42s - loss: 2.4109 - mean_absolute_error: 2.4109
