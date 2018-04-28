@@ -7,7 +7,7 @@ An initial investigation of Charlson comorbidity index Regression based on Clini
 
 Full Text, BibText (Soon)
 
-**Complete Reference:** Henrique D. P. dos Santos, Ana Helena D. P. S. Ulbrich, Vinicius Woloszyn, and Renata Vieira. 2018. An initial investigation of the Charlson comorbidity index regression based on clinical notes. 31st International Symposium on Computer-Based Medical Systems, CBMS 201, 6 pages.
+**Complete Reference:** Henrique D. P. dos Santos, Ana Helena D. P. S. Ulbrich, Vinicius Woloszyn, and Renata Vieira. 2018. An initial investigation of the Charlson comorbidity index regression based on clinical notes. 31st International Symposium on Computer-Based Medical Systems, CBMS 2018, 6 pages.
 
 ### PUCRS NLP Group
 This project belongs to [NLP Group at PUCRS, Brazil](http://www.inf.pucrs.br/linatural/)
