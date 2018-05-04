@@ -9,5 +9,8 @@ Full Text, BibText (Soon)
 
 **Complete Reference:** Henrique D. P. dos Santos, Ana Helena D. P. S. Ulbrich, Vinicius Woloszyn, and Renata Vieira. 2018. An initial investigation of the Charlson comorbidity index regression based on clinical notes. 31st International Symposium on Computer-Based Medical Systems, CBMS 2018, 6 pages.
 
+### Pre-trained Word Vector for Health in Portuguese
+http://www.inf.pucrs.br/linatural/wordpress/index.php/recursos-e-ferramentas/word-embeddings-para-saude/
+
 ### PUCRS NLP Group
 This project belongs to [NLP Group at PUCRS, Brazil](http://www.inf.pucrs.br/linatural/)
